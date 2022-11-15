@@ -12,5 +12,18 @@ class StringUtilsTest {
 		String results=StringUtils.toSnakeCase("aaa");
 		assertEquals("aaa",results,"エラー");
 	}
+	@Test
+	void testTostring2() {
+	
+		String results=StringUtils.toSnakeCase("hello_world");
+		assertEquals("hello_world",results,"エラー");
+	}
+	@Test
+	void testTostring3() {
+	
+		String results=StringUtils.toSnakeCase("practice_junit");
+		assertEquals("practice_junite",results,"エラー");
+	}
+
 
 }
