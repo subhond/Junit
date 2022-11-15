@@ -8,7 +8,8 @@ class MonthlyCalendarTest {
 
 	@Test
 	void test() {
-		fail("まだ実装されていません");
+		
+		
 	}
 
 }
